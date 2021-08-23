@@ -1,0 +1,79 @@
+
+
+.counterContainer{
+  padding: 15px;
+  /* background-color: aqua; */
+}
+
+.counterMenu{
+  margin-bottom: 130px
+}
+
+.counterWrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.counters{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.countTotal{
+  display: flex;
+  justify-content: center;
+}
+
+.counter{
+  height: 50%;
+  width: 50%;
+  border: .2px solid white;
+  box-shadow: 1px 2px 18px 10px rgba(123,118,118,0.75);
+-webkit-box-shadow: 1px 2px 18px 10px rgba(123,118,118,0.75);
+-moz-box-shadow: 1px 2px 18px 10px rgba(123,118,118,0.75);
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.counter_colon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+  width: 50%;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(121, 44, 44);
+}
+
+.countTotal{
+  background-color: #F0F0F0;
+ 
+}
+
+.totalAmount{
+  font-size: 1.6rem;
+  margin-right: 3rem;
+  text-align: center;
+  color:rgb(38, 38, 38);
+  font-weight: bold;
+}
+
+.totalResult{
+  font-size: 2rem;
+  color:#1BC47D;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,64 @@
+
+.errorBrand{
+  height: 65px;
+}
+
+.errorWrapper{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.errorIcon{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+  margin-bottom: 40px
+}
+
+.errorIcon h2{
+  color: #222;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.errorButton{
+  margin-bottom: 180px
+}
+
+.errorButton button{
+  height: 55px;
+border: 2px solid black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 155px;
+font-size: 24px;
+font-weight: 500;
+cursor: pointer;
+  
+}
+
+.errorButton .buttonYes{
+  background-color: black;
+  color: white;
+  margin-left: 15px;
+}
+
+/* margin-bottom: 30px;
+width: 100%;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height: 55px;
+border-radius:10px;
+border: none;
+font-size: 24px;
+font-weight: 500;
+cursor: pointer; */
+
+
+
+
+
+/* TODO MAKE APP DOWN BAR NONE VISIBLE FOR LARGE SCREEN */
+

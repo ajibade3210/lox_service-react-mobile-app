@@ -1,0 +1,88 @@
+.outer_full_width{
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+}
+
+.inner_max_width{
+    max-width: 1024px;
+    height: auto;
+    margin: auto;
+}
+
+.slides{
+    width: 100%;
+    height:auto;
+    position: relative;
+}
+
+
+h1.slideText{
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-self: center;
+    padding: 250px 10px 10px 0;
+    font-size: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+.slide_one, .slide_two, .slide_three, .slide_four{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide_one{
+    animation:slideOne 40s infinite;
+}
+.slide_two{
+    animation:slideTwo 40s infinite;
+}
+.slide_three{
+    animation:slideThree 40s infinite;
+}
+.slide_four{
+    animation:slideFour 40s infinite;
+}
+
+.slides{
+    max-width: 100%;
+}
+
+@keyframes slideOne {
+    0% {opacity: 1}
+    25% {opacity: 0}
+    50% {opacity: 0}
+    75% {opacity: 0}
+    100% {opacity: 0}
+}
+
+@keyframes slideTwo {
+    0% {opacity: 0}
+    25% {opacity: 1}
+    50% {opacity: 0}
+    75% {opacity: 0}
+    100% {opacity: 0}
+}
+
+@keyframes slideThree {
+    0% {opacity: 0}
+    25% {opacity: 0}
+    50% {opacity: 1}
+    75% {opacity: 0}
+    100% {opacity: 0}
+}
+@keyframes slideFour {
+    0% {opacity: 0}
+    25% {opacity: 0}
+    50% {opacity: 0}
+    75% {opacity: 1}
+    100% {opacity: 0}
+}

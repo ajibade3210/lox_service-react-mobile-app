@@ -1,0 +1,17 @@
+/* Buttons */
+.slideshowDots {
+    text-align: center;
+  }
+  .slideshowDot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #969494;
+  }
+  
+  .slideshowDot.active {
+    background-color: #6a0dad;
+  }

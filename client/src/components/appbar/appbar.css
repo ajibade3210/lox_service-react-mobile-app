@@ -1,0 +1,33 @@
+/* Buttons */
+.slideshowDots {
+    text-align: center;
+  }
+  .slideshowDot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #969494;
+  }
+  
+  .slideshowDot.active {
+    background-color: #6a0dad;
+  }
+
+  /* .appbarSpan{
+    display: flex;
+    justify-content: center;
+  } */
+
+  .appbarSpan{
+    margin-left: 25%;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #443f3f;
+    font-size: 18px;
+  }
+
+  .appbrandContainer{
+  }

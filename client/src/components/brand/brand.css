@@ -1,0 +1,9 @@
+.brandContainer{
+  text-align: center;
+  margin: 40px
+}
+
+.brandContainer h2{
+  font-weight: 400;
+  font-size: 20px;
+}

@@ -1,0 +1,73 @@
+
+
+.mapContainer{
+  padding-bottom: 25px;
+}
+
+.mapWrapper{
+  margin-bottom: 2px;
+}
+
+.mapHeaders{
+  padding: 10px
+}
+
+.mapHeader h5{
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mapHeader h6{
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mapLocation h5{
+  font-size: 1rem;
+  margin-top: 2.8rem;
+  margin-bottom: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mapLocation h6{
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+.mapShowButton{
+  display: flex;
+  justify-content: center;
+}
+
+.mapShowContainer button{
+  margin-bottom: 30px;
+width: 20rem;
+background: #000;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height: 55px;
+/* border-radius:10px; */
+border: none;
+font-size: 24px;
+font-weight: 500;
+cursor: pointer;
+}
+/* TODO remove border-radius  */
+
+.mapShowContainer button:focus{
+  outline: none;
+}
+
+.mapShows{
+  padding: 15px;
+}

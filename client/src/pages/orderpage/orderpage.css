@@ -1,0 +1,54 @@
+.orderpageTop{
+    background-color: #000000;
+    color:white;
+    height: 225px;
+    padding: 10px;
+}
+
+.orderpageHeader{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.orderpageTop h3{
+    text-align: left;
+    font-size: 27px;
+    font-weight: 400;
+
+}
+
+.orderpageText span{
+   color: red;
+}
+
+.orderTextField{
+    width: 100%;
+}
+
+.orderpageDown{
+    padding: 40px
+}
+
+.orderpageDown h1,
+.orderpageDown h3{
+    color: #333333
+}
+
+.orderpageDown h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.greyBarContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.greyBar{
+    width: 35%;
+    height: 6px;
+    background-color: #656565;
+    border-radius:10px;
+}

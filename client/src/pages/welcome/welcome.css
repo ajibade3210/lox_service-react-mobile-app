@@ -1,0 +1,60 @@
+.welcomeContainer{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: .5rem;
+    
+}
+
+/* .welcomeWrapper{
+    padding: 100px;
+} */
+
+.welcomeSlide{
+    align-self: center;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.welcomeButtons{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeButton1{
+    margin-bottom: 30px;
+    width: 20rem;
+    background: #000;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 55px;
+    border-radius:10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.welcomeButton{
+    margin-bottom: 30px;
+    width: 20rem;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 55px;
+    border: 1px solid black;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.welcomeButton:focus{
+    outline: none;
+}
+
+

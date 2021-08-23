@@ -1,0 +1,26 @@
+/* Buttons */
+.allButtonContainer{
+  margin: 80px 0 0;
+  /* top rl botom */
+}
+
+.allButton{
+    margin-bottom: 30px;
+    width: 100%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 55px;
+    border-radius:10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.allButton.black{
+  border-radius: 0 !important;
+}
+
+.allButton:focus{
+    outline: none;
+}
